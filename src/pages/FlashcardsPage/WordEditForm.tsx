@@ -50,13 +50,13 @@ const WordEditForm: React.FC<WordEditFormProps> = ({
         onChange={(e) => onWordChange(e.target.value)}
         className="mb-2"
       />
-      <div className="flex-grow mb-2 bg-white" style={{ height: '100%' }}>
+      <div className="flex-grow mb-2" style={{ height: '100%' }}>
         <ReactQuill
           theme="snow"
           value={newMeaning}
           onChange={onMeaningChange}
           modules={modules}
-          style={{ height: '93%' }}
+          style={{ height: '100%' }}
         />
       </div>
       <div className="mb-2 flex flex-wrap items-center">

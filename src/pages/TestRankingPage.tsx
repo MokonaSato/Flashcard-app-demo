@@ -178,7 +178,7 @@ const TestRankingPage: React.FC = () => {
               </div>
               <div className="flex items-center">
                 <span className={`font-semibold ${question.correctRate < 30 ? 'text-red-600' : ''}`}>
-                  正答率 {question.correctRate.toFixed(2)}%
+                  正答率 {question.correctRate.toFixed(1)}%
                 </span>
                 {expandedQuestionId === question.id ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
               </div>
