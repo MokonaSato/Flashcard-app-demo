@@ -90,7 +90,6 @@ const TagListPage: React.FC = () => {
     if (deleteTag) {
       try {
         const deleteTags = tags.filter(tag => tag.id !== deleteTag.id)
-        // await axios.delete(`${API_BASE_URL}/tags/${deleteTag.id}`);
         localStorage.setItem('tags', JSON.stringify(deleteTags))
         setTags(tags.filter(tag => tag.id !== deleteTag.id));
         setDeleteTag(null);

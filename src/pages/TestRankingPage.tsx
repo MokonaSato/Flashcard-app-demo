@@ -142,7 +142,7 @@ const TestRankingPage: React.FC = () => {
             <Button onClick={goToTestList} variant="ghost" size="sm" className="mr-2">
               <ChevronLeft size={16} />
             </Button>
-            <h1 className="text-2xl font-bold truncate">{testName} - 正答率ランキング</h1>
+            <h1 className="text-2xl font-bold truncate">{testName}</h1>
           </div>
         </div>
         <div className="flex justify-end">

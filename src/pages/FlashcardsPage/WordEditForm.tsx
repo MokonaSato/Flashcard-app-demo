@@ -59,7 +59,7 @@ const WordEditForm: React.FC<WordEditFormProps> = ({
           style={{ height: '100%' }}
         />
       </div>
-      <div className="mb-2 flex flex-wrap items-center">
+      <div className="mt-12 mb-2 flex flex-wrap items-center">
         {tags.map(tag => (
           <Badge
             key={tag.id}

@@ -70,7 +70,7 @@ const TestListPage: React.FC = () => {
         <Button onClick={goToSubjectList} variant="ghost" size="sm" className="mr-2">
           <ChevronLeft size={16} />
         </Button>
-        <h1 className="text-2xl font-bold">{subjectName} - テスト一覧</h1>
+        <h1 className="text-2xl font-bold">{subjectName}</h1>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
